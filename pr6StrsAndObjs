@@ -1,0 +1,14 @@
+using System;
+
+class StringAndObjects
+{
+    static void Main()
+    {
+        string firWord = "Hello";
+        string secWord = "World";
+        object concatWord = firWord +" "+ secWord;
+        string conWord = (string)concatWord;
+        Console.WriteLine("{0} \n{1} \n{2} \n{3} ", firWord, secWord, concatWord, conWord);
+
+    }
+}
