@@ -1,0 +1,14 @@
+using System;
+
+class nullValues
+{
+    static void Main()
+    {
+        int? numInt = null;
+        double? numDo = null;
+        Console.WriteLine("This is nums before --> {0};{1} ", numInt, numDo);
+        numInt = 12;
+        numDo = 23.22;
+        Console.WriteLine("This is nums after --> {0};{1} ", numInt, numDo);
+    }
+}
