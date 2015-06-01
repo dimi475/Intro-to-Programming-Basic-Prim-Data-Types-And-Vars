@@ -1,0 +1,25 @@
+//Write a program that safely compares floating-point numbers (double) with precision eps = 0.000001. Note that we cannot directly compare two floating-point numbers a and b by a==b because of the nature of the floating-point arithmetic. Therefore, we assume two numbers are equal if they are more closely to each other than a fixed constant eps.//
+
+using System;
+
+class comparingFloats
+{
+    static void Main()
+    {
+    
+//Enter floating point variables here//
+        double numOne = 5.0000000001;
+        double numTwo = 5.0000000003;
+        double eps = 0.000001;
+        
+//conditional statement used to compare floating point values//
+        if (Math.Abs(numOne - numTwo) < eps)
+        {
+            Console.WriteLine(true);
+        }
+        else
+        {
+            Console.WriteLine(false);
+        }
+    }
+}
