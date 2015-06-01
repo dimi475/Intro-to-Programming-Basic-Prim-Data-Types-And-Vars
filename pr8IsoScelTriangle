@@ -1,0 +1,31 @@
+using System;
+
+class isoScelesTriangle
+{
+    static void Main()
+    {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+        char symbol = '\u00A9';
+        int col = 9;
+        int raw = col / 2;
+        char[,] triangle = new Char[raw,col];
+        for (int i = 0; i < raw; i++)
+        {
+            for (int j = 0; j < col; j++)
+            {
+                if ((i == (raw-1))&((j%2)!=0)) 
+                {
+                    triangle[i,j] = symbol;
+                    Console.Write(triangle[i, j]);
+                }
+                else
+                {
+                    triangle[i, (raw - i)] = symbol;
+                    triangle[i, (raw + i)] = symbol;
+                    Console.Write(triangle[i, j]);
+                }
+            }
+            Console.WriteLine();
+        }
+    }
+}
