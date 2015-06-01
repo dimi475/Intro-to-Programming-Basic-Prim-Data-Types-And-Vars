@@ -1,0 +1,10 @@
+using System;
+
+class unicoChar
+{
+    static void Main()
+    {
+        char uniChar = '\u002A';
+        Console.Write(uniChar+"\n");
+    }
+}
