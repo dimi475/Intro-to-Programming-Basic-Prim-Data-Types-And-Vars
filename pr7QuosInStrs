@@ -1,0 +1,12 @@
+using System;
+
+class quosInStrs
+{
+    static void Main()
+    {
+        string quoAlpha="The \"use\" of quotations causes difficulties.";
+        Console.WriteLine(quoAlpha);
+        string quoBravo=@"The ""use"" of quotations causes difficulties";
+        Console.WriteLine(quoBravo);
+    }
+}
