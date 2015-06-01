@@ -1,0 +1,10 @@
+using System;
+
+class booleanVar
+{
+    static void Main()
+    {
+        bool isFemale = false;
+        Console.WriteLine("am I female --> " + isFemale);
+    }
+}
