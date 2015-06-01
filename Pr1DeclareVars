@@ -1,0 +1,14 @@
+using System;
+
+class DeclareVars
+{
+    static void Main()
+    {
+        ushort alfa = 52130;
+        sbyte bravo = -115;
+        ulong charlie = 4825932;
+        byte delta = 97;
+        short echo = -10000;
+        Console.Write(alfa + " " + bravo + " " + charlie + " " + delta + " " + echo+"\n");
+    }
+}
