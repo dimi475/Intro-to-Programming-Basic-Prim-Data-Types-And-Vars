@@ -1,0 +1,13 @@
+using System;
+
+class floatOrDouble
+{
+    static void Main()
+    {
+        double alfa=34.567839023;
+        float bravo = 12.345f;
+        float charlie = 8923.1234857f;
+        float delta = 3456.091f;
+        Console.Write(alfa + " " + bravo + " " + charlie + " " + delta +"\n");
+    }
+}
