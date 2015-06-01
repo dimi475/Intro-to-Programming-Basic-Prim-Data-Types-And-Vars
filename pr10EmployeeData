@@ -1,0 +1,15 @@
+using System;
+
+    class employeeData
+    {
+        static void Main()
+        {
+            string firstName = "Dimo";
+            string lastName = "Dimitrov";
+            byte age = 40;
+            char gender='m';
+            ulong personID=7712051096;
+            ulong emploNum = 27560375;
+            Console.WriteLine("{0} | {1} | {2} | {3} | {4} | {5} |",firstName,lastName,age,gender,personID,emploNum);                     
+        }
+    }
