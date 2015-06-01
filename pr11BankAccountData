@@ -1,0 +1,17 @@
+using System;
+
+class bankAccData
+{
+    static void Main()
+    {
+        string firstName = "Dimo";
+        string middleName = "Dimitrov";
+        string lastName = "Dimov";
+        decimal balance = 290.24m;
+        string iban = "BG69UNCR96601025623148";
+        ulong crCardNumOne = 5304361920153735;
+        ulong crCardNumTwo = 5304361920153737;
+        ulong crCardNumThree = 5304361920154042;
+        Console.WriteLine(firstName + " | " + middleName + " | " + lastName + " | " + balance + " | " + iban + " \nCredit Cards ---> " + crCardNumOne + " | " + crCardNumTwo + " | "+crCardNumThree);
+    }
+}
