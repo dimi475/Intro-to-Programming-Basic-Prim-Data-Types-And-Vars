@@ -1,0 +1,10 @@
+using System;
+
+class varInHex
+{
+    static void Main()
+    {
+        int numHex = 0xFE;
+        Console.Write(numHex+"\n");
+    }
+}
